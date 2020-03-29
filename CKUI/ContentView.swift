@@ -10,11 +10,3 @@ struct ContentView: View {
         }
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        SimpleTaskWrapper(taskID: "doxylaminee", manager: manager)  { event, _ in
-            Text("neat")
-        }
-    }
-}
