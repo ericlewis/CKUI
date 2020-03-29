@@ -8,5 +8,7 @@ struct ContentView: View {
             Button(event?.outcome == nil ? "Mark as Completed" : "Completed",
                    action: markComplete)
         }
+        .environment(\.manager,
+                     OCKSynchronizedStoreManager(wrapping: OCKStore(name: "v1")))
     }
 }

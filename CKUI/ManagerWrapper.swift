@@ -22,5 +22,5 @@ extension EnvironmentValues {
 }
 
 public struct T: EnvironmentKey {
-    public static let defaultValue: OCKSynchronizedStoreManager = OCKSynchronizedStoreManager(wrapping: store)
+    public static let defaultValue: OCKSynchronizedStoreManager = OCKSynchronizedStoreManager(wrapping: OCKStore(name: "default"))
 }

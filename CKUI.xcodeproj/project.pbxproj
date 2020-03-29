@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		681E96982431279600503337 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96972431279600503337 /* Manager.swift */; };
 		681E969A2431308500503337 /* ManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96992431308500503337 /* ManagerWrapper.swift */; };
-		681E969C243135D800503337 /* SimpleTaskWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E969B243135D800503337 /* SimpleTaskWrapper.swift */; };
 		683F575E243032C900E533EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F575D243032C900E533EB /* AppDelegate.swift */; };
 		683F5760243032C900E533EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F575F243032C900E533EB /* SceneDelegate.swift */; };
 		683F5762243032C900E533EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F5761243032C900E533EB /* ContentView.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		681E96972431279600503337 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		681E96992431308500503337 /* ManagerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerWrapper.swift; sourceTree = "<group>"; };
-		681E969B243135D800503337 /* SimpleTaskWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTaskWrapper.swift; sourceTree = "<group>"; };
 		683F575A243032C900E533EB /* CKUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		683F575D243032C900E533EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		683F575F243032C900E533EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 		683F5751243032C900E533EB = {
 			isa = PBXGroup;
 			children = (
-				681E96992431308500503337 /* ManagerWrapper.swift */,
 				683F575C243032C900E533EB /* CKUI */,
 				683F575B243032C900E533EB /* Products */,
 			);
@@ -75,8 +72,8 @@
 				683F575F243032C900E533EB /* SceneDelegate.swift */,
 				683F5761243032C900E533EB /* ContentView.swift */,
 				681E96972431279600503337 /* Manager.swift */,
+				681E96992431308500503337 /* ManagerWrapper.swift */,
 				687A0D7524311FFA007F85C2 /* SimpleTask.swift */,
-				681E969B243135D800503337 /* SimpleTaskWrapper.swift */,
 				683F5763243032C900E533EB /* Assets.xcassets */,
 				683F5768243032C900E533EB /* LaunchScreen.storyboard */,
 				683F576B243032C900E533EB /* Info.plist */,
@@ -177,7 +174,6 @@
 				681E96982431279600503337 /* Manager.swift in Sources */,
 				683F575E243032C900E533EB /* AppDelegate.swift in Sources */,
 				683F5760243032C900E533EB /* SceneDelegate.swift in Sources */,
-				681E969C243135D800503337 /* SimpleTaskWrapper.swift in Sources */,
 				683F5762243032C900E533EB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
