@@ -4,7 +4,7 @@ import CareKit
 struct SimpleTaskWrapper<Content: View>: View {
     typealias ContentFunc = (OCKAnyEvent?, @escaping () -> Void) -> Content
     let content: ContentFunc
-    @ObservedObject var controller = OCKSimpleTaskController(storeManager: manager)
+    @ObservedObject var controller: OCKSimpleTaskController
     
     var event: OCKAnyEvent? {
         controller.objectWillChange.value?.firstEvent
@@ -12,8 +12,10 @@ struct SimpleTaskWrapper<Content: View>: View {
     
     init(taskID: String,
          eventQuery: OCKEventQuery = OCKEventQuery(for: Date()),
+         manager: OCKSynchronizedStoreManager,
          @ViewBuilder content: @escaping ContentFunc) {
         self.content = content
+        self.controller = OCKSimpleTaskController(storeManager: manager)
         controller.fetchAndObserveEvents(forTaskID: taskID,
                                          eventQuery: eventQuery)
     }

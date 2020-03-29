@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681E96982431279600503337 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96972431279600503337 /* Manager.swift */; };
 		683F575E243032C900E533EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F575D243032C900E533EB /* AppDelegate.swift */; };
 		683F5760243032C900E533EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F575F243032C900E533EB /* SceneDelegate.swift */; };
 		683F5762243032C900E533EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F5761243032C900E533EB /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		681E96972431279600503337 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		683F575A243032C900E533EB /* CKUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		683F575D243032C900E533EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		683F575F243032C900E533EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				683F575D243032C900E533EB /* AppDelegate.swift */,
 				683F575F243032C900E533EB /* SceneDelegate.swift */,
 				683F5761243032C900E533EB /* ContentView.swift */,
+				681E96972431279600503337 /* Manager.swift */,
 				687A0D7724312062007F85C2 /* ButtonLogTaskWrapper.swift */,
 				687A0D7524311FFA007F85C2 /* SimpleTaskWrapper.swift */,
 				683F5763243032C900E533EB /* Assets.xcassets */,
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				687A0D7624311FFA007F85C2 /* SimpleTaskWrapper.swift in Sources */,
+				681E96982431279600503337 /* Manager.swift in Sources */,
 				683F575E243032C900E533EB /* AppDelegate.swift in Sources */,
 				687A0D7824312062007F85C2 /* ButtonLogTaskWrapper.swift in Sources */,
 				683F5760243032C900E533EB /* SceneDelegate.swift in Sources */,
