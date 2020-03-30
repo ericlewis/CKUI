@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		681E96982431279600503337 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96972431279600503337 /* Manager.swift */; };
 		681E969A2431308500503337 /* ManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96992431308500503337 /* ManagerWrapper.swift */; };
+		681E969E24328EAD00503337 /* ButtonLogTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E969D24328EAD00503337 /* ButtonLogTask.swift */; };
+		681E96A224329BBF00503337 /* SimpleTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96A124329BBF00503337 /* SimpleTaskView.swift */; };
+		681E96A424329FF000503337 /* OCKScheduleUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96A324329FF000503337 /* OCKScheduleUtility.swift */; };
+		681E96A62432A04100503337 /* OCKAnyEvent+sortedOutcomeValuesByRecency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96A52432A04100503337 /* OCKAnyEvent+sortedOutcomeValuesByRecency.swift */; };
+		681E96AC2432A16E00503337 /* ButtonLogTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96AB2432A16E00503337 /* ButtonLogTaskView.swift */; };
+		681E96AE2432A39100503337 /* InstructionsTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96AD2432A39100503337 /* InstructionsTaskView.swift */; };
+		681E96B02432A39A00503337 /* InstructionsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96AF2432A39A00503337 /* InstructionsTask.swift */; };
+		681E96B22432A65E00503337 /* RoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96B12432A65E00503337 /* RoundedButtonStyle.swift */; };
+		681E96B42432A81200503337 /* ChecklistTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96B32432A81200503337 /* ChecklistTaskView.swift */; };
+		681E96B62432A81C00503337 /* GridTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96B52432A81C00503337 /* GridTaskView.swift */; };
+		681E96B82432A82F00503337 /* GridTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96B72432A82F00503337 /* GridTask.swift */; };
+		681E96BA2432A83600503337 /* ChecklistTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96B92432A83600503337 /* ChecklistTask.swift */; };
 		683F575E243032C900E533EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F575D243032C900E533EB /* AppDelegate.swift */; };
 		683F5760243032C900E533EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F575F243032C900E533EB /* SceneDelegate.swift */; };
 		683F5762243032C900E533EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683F5761243032C900E533EB /* ContentView.swift */; };
@@ -24,6 +36,18 @@
 /* Begin PBXFileReference section */
 		681E96972431279600503337 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		681E96992431308500503337 /* ManagerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerWrapper.swift; sourceTree = "<group>"; };
+		681E969D24328EAD00503337 /* ButtonLogTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLogTask.swift; sourceTree = "<group>"; };
+		681E96A124329BBF00503337 /* SimpleTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTaskView.swift; sourceTree = "<group>"; };
+		681E96A324329FF000503337 /* OCKScheduleUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCKScheduleUtility.swift; sourceTree = "<group>"; };
+		681E96A52432A04100503337 /* OCKAnyEvent+sortedOutcomeValuesByRecency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OCKAnyEvent+sortedOutcomeValuesByRecency.swift"; sourceTree = "<group>"; };
+		681E96AB2432A16E00503337 /* ButtonLogTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLogTaskView.swift; sourceTree = "<group>"; };
+		681E96AD2432A39100503337 /* InstructionsTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsTaskView.swift; sourceTree = "<group>"; };
+		681E96AF2432A39A00503337 /* InstructionsTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsTask.swift; sourceTree = "<group>"; };
+		681E96B12432A65E00503337 /* RoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyle.swift; sourceTree = "<group>"; };
+		681E96B32432A81200503337 /* ChecklistTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTaskView.swift; sourceTree = "<group>"; };
+		681E96B52432A81C00503337 /* GridTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTaskView.swift; sourceTree = "<group>"; };
+		681E96B72432A82F00503337 /* GridTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTask.swift; sourceTree = "<group>"; };
+		681E96B92432A83600503337 /* ChecklistTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTask.swift; sourceTree = "<group>"; };
 		683F575A243032C900E533EB /* CKUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		683F575D243032C900E533EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		683F575F243032C900E533EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +73,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		681E96A72432A09100503337 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				681E96A124329BBF00503337 /* SimpleTaskView.swift */,
+				681E96AB2432A16E00503337 /* ButtonLogTaskView.swift */,
+				681E96AD2432A39100503337 /* InstructionsTaskView.swift */,
+				681E96B32432A81200503337 /* ChecklistTaskView.swift */,
+				681E96B52432A81C00503337 /* GridTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		681E96A82432A09D00503337 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				687A0D7524311FFA007F85C2 /* SimpleTask.swift */,
+				681E969D24328EAD00503337 /* ButtonLogTask.swift */,
+				681E96AF2432A39A00503337 /* InstructionsTask.swift */,
+				681E96B72432A82F00503337 /* GridTask.swift */,
+				681E96B92432A83600503337 /* ChecklistTask.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		681E96A92432A0AB00503337 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				681E96972431279600503337 /* Manager.swift */,
+				681E96992431308500503337 /* ManagerWrapper.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		681E96AA2432A0B700503337 /* OCK */ = {
+			isa = PBXGroup;
+			children = (
+				681E96A52432A04100503337 /* OCKAnyEvent+sortedOutcomeValuesByRecency.swift */,
+				681E96A324329FF000503337 /* OCKScheduleUtility.swift */,
+			);
+			path = OCK;
+			sourceTree = "<group>";
+		};
 		683F5751243032C900E533EB = {
 			isa = PBXGroup;
 			children = (
@@ -71,9 +137,11 @@
 				683F575D243032C900E533EB /* AppDelegate.swift */,
 				683F575F243032C900E533EB /* SceneDelegate.swift */,
 				683F5761243032C900E533EB /* ContentView.swift */,
-				681E96972431279600503337 /* Manager.swift */,
-				681E96992431308500503337 /* ManagerWrapper.swift */,
-				687A0D7524311FFA007F85C2 /* SimpleTask.swift */,
+				681E96B12432A65E00503337 /* RoundedButtonStyle.swift */,
+				681E96A72432A09100503337 /* Views */,
+				681E96A92432A0AB00503337 /* Manager */,
+				681E96A82432A09D00503337 /* Tasks */,
+				681E96AA2432A0B700503337 /* OCK */,
 				683F5763243032C900E533EB /* Assets.xcassets */,
 				683F5768243032C900E533EB /* LaunchScreen.storyboard */,
 				683F576B243032C900E533EB /* Info.plist */,
@@ -169,12 +237,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681E96B42432A81200503337 /* ChecklistTaskView.swift in Sources */,
+				681E96B62432A81C00503337 /* GridTaskView.swift in Sources */,
+				681E96A424329FF000503337 /* OCKScheduleUtility.swift in Sources */,
+				681E96AE2432A39100503337 /* InstructionsTaskView.swift in Sources */,
+				681E96B82432A82F00503337 /* GridTask.swift in Sources */,
 				687A0D7624311FFA007F85C2 /* SimpleTask.swift in Sources */,
+				681E96B02432A39A00503337 /* InstructionsTask.swift in Sources */,
+				681E96AC2432A16E00503337 /* ButtonLogTaskView.swift in Sources */,
+				681E96B22432A65E00503337 /* RoundedButtonStyle.swift in Sources */,
 				681E969A2431308500503337 /* ManagerWrapper.swift in Sources */,
 				681E96982431279600503337 /* Manager.swift in Sources */,
+				681E96BA2432A83600503337 /* ChecklistTask.swift in Sources */,
 				683F575E243032C900E533EB /* AppDelegate.swift in Sources */,
 				683F5760243032C900E533EB /* SceneDelegate.swift in Sources */,
+				681E969E24328EAD00503337 /* ButtonLogTask.swift in Sources */,
 				683F5762243032C900E533EB /* ContentView.swift in Sources */,
+				681E96A62432A04100503337 /* OCKAnyEvent+sortedOutcomeValuesByRecency.swift in Sources */,
+				681E96A224329BBF00503337 /* SimpleTaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,6 @@ struct SimpleTask<Content: View>: View {
         self.content = content
     }
     
-    
     var body: some View {
         ManagerWrapper {
             SimpleTaskWrapper(taskID: self.taskID,
@@ -26,7 +25,7 @@ struct SimpleTask<Content: View>: View {
 }
 
 struct SimpleTaskWrapper<Content: View>: View {
-    typealias ContentFunc = (OCKAnyEvent?, @escaping () -> Void) -> Content
+    typealias ContentFunc = (OCKAnyEvent?, Bool, @escaping () -> Void) -> Content
     let content: ContentFunc
     @ObservedObject var controller: OCKSimpleTaskController
     
@@ -53,7 +52,7 @@ struct SimpleTaskWrapper<Content: View>: View {
     }
     
     var body: some View {
-        content(event, markComplete)
+        content(event, event?.outcome != nil, markComplete)
     }
 }
 

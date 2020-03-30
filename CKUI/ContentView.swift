@@ -3,12 +3,20 @@ import CareKit
 
 struct ContentView: View {
     var body: some View {
-        SimpleTask(taskID: "doxylaminee") { event, markComplete in
-            Text(event?.task.title ?? "no task")
-            Button(event?.outcome == nil ? "Mark as Completed" : "Completed",
-                   action: markComplete)
+        Form {
+            Section(header: Text("Simple Task")) {
+                SimpleTaskView(taskID: "doxylaminee")
+            }
+            Section(header: Text("Instructions Task")) {
+                InstructionsTaskView(taskID: "doxylaminee")
+            }
+            Section(header: Text("Button Log Task")) {
+                ButtonLogTaskView(taskID: "doxylaminee")
+            }
+            Section(header: Text("Checklist Task")) {
+                ChecklistTaskView(taskID: "doxylaminee")
+            }
         }
-        .environment(\.manager,
-                     OCKSynchronizedStoreManager(wrapping: OCKStore(name: "v1")))
+        .environment(\.manager, manager)
     }
 }
