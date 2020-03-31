@@ -13,14 +13,14 @@ struct ManagerWrapper<Content: View>: View {
 extension EnvironmentValues {
     var manager: OCKSynchronizedStoreManager {
         get {
-            return self[T.self]
+            return self[SynchronizedStoreManagerKey.self]
         }
         set {
-            self[T.self] = newValue
+            self[SynchronizedStoreManagerKey.self] = newValue
         }
     }
 }
 
-public struct T: EnvironmentKey {
+public struct SynchronizedStoreManagerKey: EnvironmentKey {
     public static let defaultValue: OCKSynchronizedStoreManager = OCKSynchronizedStoreManager(wrapping: OCKStore(name: "default"))
 }
