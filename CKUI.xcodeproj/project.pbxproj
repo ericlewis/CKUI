@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681CF7832434E787009ED9AB /* TaskLogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681CF7822434E787009ED9AB /* TaskLogButton.swift */; };
 		681E96982431279600503337 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96972431279600503337 /* Manager.swift */; };
 		681E969A2431308500503337 /* ManagerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E96992431308500503337 /* ManagerWrapper.swift */; };
 		681E969E24328EAD00503337 /* ButtonLogTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E969D24328EAD00503337 /* ButtonLogTask.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		681CF7822434E787009ED9AB /* TaskLogButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskLogButton.swift; sourceTree = "<group>"; };
 		681E96972431279600503337 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		681E96992431308500503337 /* ManagerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerWrapper.swift; sourceTree = "<group>"; };
 		681E969D24328EAD00503337 /* ButtonLogTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLogTask.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				681E96AD2432A39100503337 /* InstructionsTaskView.swift */,
 				681E96B32432A81200503337 /* ChecklistTaskView.swift */,
 				681E96B52432A81C00503337 /* GridTaskView.swift */,
+				681CF7822434E787009ED9AB /* TaskLogButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				681E96B22432A65E00503337 /* RoundedButtonStyle.swift in Sources */,
 				681E969A2431308500503337 /* ManagerWrapper.swift in Sources */,
 				681E96982431279600503337 /* Manager.swift in Sources */,
+				681CF7832434E787009ED9AB /* TaskLogButton.swift in Sources */,
 				681E96BA2432A83600503337 /* ChecklistTask.swift in Sources */,
 				683F575E243032C900E533EB /* AppDelegate.swift in Sources */,
 				683F5760243032C900E533EB /* SceneDelegate.swift in Sources */,
